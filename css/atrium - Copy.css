@@ -1,0 +1,14 @@
+.container {
+    padding: 80px 120px;
+}
+
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 50%;
+    font-size: 20pt
+}
+
+.h1 {
+    font-size: 30pt
+}

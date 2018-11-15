@@ -1,0 +1,3 @@
+I would  like to build a team website for my father's cross country team that he coaches. 
+He has always wanted a place to put pictures that are taken during races and schedules of meets for parents. 
+Also another possible implimentation for the site could be posting runner's results. 

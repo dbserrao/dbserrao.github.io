@@ -1,0 +1,205 @@
+.container {
+    padding: 80px 120px;
+    font
+}
+
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 50%;
+    font-size: 20pt
+}
+
+.h1 {
+    font-size: 30pt
+}
+
+1 div {
+    width: 200px;
+}
+
+.h2 {
+    font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white !important;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #963c3c;
+    color: white;
+}
+
+ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li1 {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+li1:last-child {
+    border: none;
+}
+
+li1 a {
+    text-decoration: none;
+    color: #969696;
+    display: block;
+    width: 500px;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li1 a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}
+
+button {
+    border-radius: 12px;
+    background-color: #4286f4;
+    color: white;
+}
+
+
+/* Split the screen in half */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+/* Control the left side */
+
+.left1 {
+    left: 0;
+    background-color: #111;
+}
+
+
+/* Control the right side */
+
+.right1 {
+    right: 0;
+    background-color: #4b0d1a;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Style the image inside the centered container, if needed */
+
+.centered img {
+    width: 500px;
+    border-radius: 10%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.split-2 {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+/* Control the left side */
+
+.left-2 {
+    left: 0;
+    background-color: #111;
+}
+
+
+/* Control the right side */
+
+.right-2 {
+    right: 0;
+    background-color: lightgray;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+
+.centered-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Style the image inside the centered container, if needed */
+
+.centered-2 img {
+    width: 500px;
+    border-radius: 50%;
+}
+
+.text {
+    color: white;
+}
